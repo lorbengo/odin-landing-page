@@ -31,6 +31,10 @@ body {
   text-align: center;
 }
 
+.section {
+  padding: 64px 0;
+}
+
 /*------------------------------------------------------------------------------
  * HEADER
  ------------------------------------------------------------------------------*/
@@ -110,10 +114,6 @@ body {
  * INFORMATION
  ------------------------------------------------------------------------------*/
 
-.info {
-  padding: 46px 0;
-}
-
 .info-title {
   margin: 0 0 46px;
   color: #1f2937;
@@ -144,4 +144,32 @@ body {
 .info-item-text {
   margin: 0;
   color: #535962;
+}
+
+/*------------------------------------------------------------------------------
+ * BLOCKQUOTE
+ ------------------------------------------------------------------------------*/
+
+.blockquote {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  width: 790px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-footer,
+.quote-footer cite {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: end;
 }
