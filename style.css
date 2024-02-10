@@ -124,9 +124,12 @@ body {
  * INFORMATION
  ------------------------------------------------------------------------------*/
 
+.info {
+  color: #1f2937;
+}
+
 .info-title {
   margin: 0 0 46px;
-  color: #1f2937;
   font-size: 36px;
   font-weight: 900;
   text-align: center;
@@ -153,7 +156,6 @@ body {
 
 .info-item-text {
   margin: 0;
-  color: #535962;
 }
 
 /*------------------------------------------------------------------------------
@@ -166,10 +168,10 @@ body {
 
 .quote {
   margin: 0 auto;
+  color: #1f2937;
 }
 
 .quote-text {
-  color: #1f2937;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
