@@ -217,9 +217,26 @@ body {
 }
 
 .cta-text {
-  color: #c8d6ed;
+  color: #e5e7eb;
 }
 
 .cta-button {
   border-color: inherit;
+}
+
+/*------------------------------------------------------------------------------
+ * FOOTER
+ ------------------------------------------------------------------------------*/
+
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #1f2937;
+}
+
+.footer-copyright {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #e5e7eb;
+  text-align: center;
 }
