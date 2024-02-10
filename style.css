@@ -19,20 +19,26 @@ body {
   padding: 0 16px;
 }
 
+.container-narrow {
+  width: 790px;
+  margin: 0 auto;
+}
+
 .button {
-  align-self: flex-start;
   display: inline-block;
   padding: 6px 28px;
   border: 2px solid transparent;
   border-radius: 4px;
   background-color: #3882f6;
   color: #f9faf8;
+  font-size: 18px;
   text-decoration: none;
   text-align: center;
 }
 
 .section {
-  padding: 64px 0;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 /*------------------------------------------------------------------------------
@@ -100,6 +106,10 @@ body {
   font-weight: 300;
 }
 
+.hero-button {
+  align-self: flex-start;
+}
+
 .hero-image {
   display: flex;
   justify-content: center;
@@ -155,7 +165,6 @@ body {
 }
 
 .quote {
-  width: 790px;
   margin: 0 auto;
 }
 
@@ -172,4 +181,45 @@ body {
   font-weight: 700;
   font-size: 24px;
   text-align: end;
+}
+
+/*------------------------------------------------------------------------------
+ * CALL TO ACTION
+ ------------------------------------------------------------------------------*/
+
+.cta {
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.cta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 48px 0;
+}
+
+.cta-column {
+}
+
+.cta-column-right {
+}
+
+.cta-title,
+.cta-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cta-title {
+}
+
+.cta-text {
+  color: #c8d6ed;
+}
+
+.cta-button {
+  border-color: inherit;
 }
